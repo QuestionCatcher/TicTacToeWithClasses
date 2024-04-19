@@ -6,10 +6,8 @@ class Player
 public:
     void SetName(std::string NewName);
     std::string GetName() const;
-    void SetName1(const std::string& Name);
-    std::string GetSign() const;
     void SetSign(const std::string& Sign);
-
+    std::string GetSign() const;
 private:
     std::string Name;
     std::string Sign;
