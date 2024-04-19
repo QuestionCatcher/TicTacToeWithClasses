@@ -1,8 +1,10 @@
+#include "Game.h"
 
-#include <iostream>
-using namespace std;
-int main(int argc, char* argv[])
+int main()
 {
-    cout <<  "Testing repo";
+    Game Game;
+
+    Game.Play();
+
     return 0;
 }

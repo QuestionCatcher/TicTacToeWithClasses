@@ -8,11 +8,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e513310-e3fd-416a-ba61-3dab25a2b1fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TicTacToeWithClasses.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/solution.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/solution.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/solution.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/Board.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/Board.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/Game.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/Game.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/Board.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/Game.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.exe.recipe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.ilk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/Cl.items.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/link.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/link.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/link.secondary.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/link.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/solution.lastbuildstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/vc143.idb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/vc143.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x64/Debug/solution.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x64/Debug/solution.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TicTacToeWithClasses/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TicTacToeWithClasses/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/solution.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/solution/solution.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/solution.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/solution/solution.vcxproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,19 +42,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2fGSkvlYDU19X79a54tMpMHnNz5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "C++ Project.solution.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -115,7 +139,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713426069876</updated>
-      <workItem from="1713426069876" duration="609000" />
+      <workItem from="1713426069876" duration="2654000" />
+      <workItem from="1713510814915" duration="1906000" />
     </task>
     <servers />
   </component>
@@ -124,6 +149,7 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
