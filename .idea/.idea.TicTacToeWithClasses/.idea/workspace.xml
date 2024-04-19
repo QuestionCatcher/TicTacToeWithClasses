@@ -8,30 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e513310-e3fd-416a-ba61-3dab25a2b1fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/solution/Board.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/Board.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/Game.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/Game.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/Board.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/Game.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.exe.recipe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.ilk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.command.1.tlog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.read.1.tlog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.write.1.tlog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/Cl.items.tlog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/link.command.1.tlog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/link.read.1.tlog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/link.secondary.1.tlog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/link.write.1.tlog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/solution.lastbuildstate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/vc143.idb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/vc143.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x64/Debug/solution.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x64/Debug/solution.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/Player.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/Player.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TicTacToeWithClasses/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TicTacToeWithClasses/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/solution.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/solution/solution.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Board.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/solution/Board.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Board.h" beforeDir="false" afterPath="$PROJECT_DIR$/solution/Board.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/solution.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/solution/solution.vcxproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +45,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.C++",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -140,7 +122,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713426069876</updated>
       <workItem from="1713426069876" duration="2654000" />
-      <workItem from="1713510814915" duration="1906000" />
+      <workItem from="1713510814915" duration="3654000" />
     </task>
     <servers />
   </component>
