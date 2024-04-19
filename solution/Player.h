@@ -4,11 +4,11 @@
 class Player
 {
 public:
-    void setName(std::string NewName);
-    std::string get_name() const;
-    void set_name(const std::string& name);
-    std::string get_sign() const;
-    void set_sign(const std::string& sign);
+    void SetName(std::string NewName);
+    std::string GetName() const;
+    void SetName1(const std::string& Name);
+    std::string GetSign() const;
+    void SetSign(const std::string& Sign);
 
 private:
     std::string Name;

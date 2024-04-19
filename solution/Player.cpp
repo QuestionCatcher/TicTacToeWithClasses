@@ -1,21 +1,21 @@
 #include "Player.h"
 
-std::string Player::get_name() const
+void Player::SetName(std::string NewName)
+{
+    Name = NewName;
+}
+
+std::string Player::GetName() const
 {
     return Name;
 }
 
-void Player::set_name(const std::string& name)
-{
-    Name = name;
-}
-
-std::string Player::get_sign() const
+std::string Player::GetSign() const
 {
     return Sign;
 }
 
-void Player::set_sign(const std::string& sign)
+void Player::SetSign(const std::string& NewSign)
 {
-    Sign = sign;
+    Sign = NewSign;
 }
