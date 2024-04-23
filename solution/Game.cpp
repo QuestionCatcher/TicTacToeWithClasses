@@ -1,17 +1,12 @@
 #include "Game.h"
-
-bool Game::GameLoop()
-{
-    return false;
-}
-
+#include "Board.h"
 void Game::Play()
 {
     {
-        GameBoard.PrintGuideBoard();
         SetPlayersNames();
         GetPlayersInfo();
-        GameBoard.PrintCurrentBoard();
+        GameBoard.PrintGuideBoard();
+        GameLoop();
         while (!GameLoop())
         {
             std::cout << "Gracz " << CurrentPlayer->GetName() << ", podaj numer pola (od 1 do 9): ";
@@ -23,6 +18,17 @@ void Game::Play()
     
     }
 }
+//GameLoop
+
+void Game::GameLoop()
+{
+    while (true)
+    {
+        GameBoard.PrintCurrentBoard();   
+    }
+    
+}
+
 //set player name
 void Game::SetPlayersNames()
 {
@@ -49,9 +55,7 @@ Game::Game(): CurrentPlayer(&Player1)
 
 void Game::MakeMove(std::string Board, const std::string& sign)
 {
-    GameBoard.EnterSign(sign, - 1);
-    GameBoard.PrintCurrentBoard();
-    SwitchPlayer();
+    std::cout << "Gracz: " + CurrentPlayer->GetName() + " wykonuje ruch.\n";
 }
 
 void Game::SwitchPlayer()

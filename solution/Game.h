@@ -6,7 +6,7 @@
 class Game
 {
 public:
-    bool GameLoop();
+    void GameLoop();
     void Play();
     Game();
 
@@ -23,50 +23,3 @@ private:
     Player Player2;
     Player* CurrentPlayer;
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
