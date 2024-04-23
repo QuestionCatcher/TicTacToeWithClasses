@@ -6,7 +6,7 @@
 class Game
 {
 public:
-    bool GameIsOver();
+    bool GameLoop();
     void Play();
     Game();
 

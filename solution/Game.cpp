@@ -1,17 +1,18 @@
 #include "Game.h"
 
-bool Game::GameIsOver()
+bool Game::GameLoop()
 {
-    return true;
+    return false;
 }
 
 void Game::Play()
 {
     {
         GameBoard.PrintGuideBoard();
+        SetPlayersNames();
+        GetPlayersInfo();
         GameBoard.PrintCurrentBoard();
-    
-        while (!GameIsOver())
+        while (!GameLoop())
         {
             std::cout << "Gracz " << CurrentPlayer->GetName() << ", podaj numer pola (od 1 do 9): ";
             std::string index;
@@ -21,8 +22,6 @@ void Game::Play()
         }
     
     }
-    SetPlayersNames();
-    GetPlayersInfo();
 }
 //set player name
 void Game::SetPlayersNames()
