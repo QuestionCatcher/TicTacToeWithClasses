@@ -9,7 +9,7 @@ public:
     void PrintCurrentBoard();
     void PrintGuideBoard();
     void ClearBoard();
-    void EnterSign(const std::string& Sign, int Index);
+    void SetField(const std::string& Sign, int Index);
 
 private:
     void PrintBoard(std::string Board[9]) const;

@@ -5,7 +5,6 @@ int main()
 
     Game Game;
 
-    Game.Play();
-    
+    Game.MakeMove();    
     return 0;
 }

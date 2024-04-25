@@ -1,5 +1,8 @@
 #include "Game.h"
+#include <iostream>
 #include "Board.h"
+
+int x;
 void Game::Play()
 {
     {
@@ -9,11 +12,10 @@ void Game::Play()
         GameLoop();
         while (!GameLoop())
         {
-            std::cout << "Gracz " << CurrentPlayer->GetName() << ", podaj numer pola (od 1 do 9): ";
             std::string index;
             std::cin >> index;
         
-            MakeMove(index, CurrentPlayer->GetSign());
+            MakeMove();
         }
     
     }
@@ -24,7 +26,10 @@ void Game::GameLoop()
 {
     while (true)
     {
-        GameBoard.PrintCurrentBoard();   
+        GameBoard.PrintCurrentBoard();
+        std::cout << "Gracz " << CurrentPlayer->GetName() << ", podaj numer pola (od 1 do 9): ";
+        MakeMove();
+        
     }
     
 }
@@ -53,9 +58,12 @@ Game::Game(): CurrentPlayer(&Player1)
     Player2.SetSign("O");
 }
 
-void Game::MakeMove(std::string Board, const std::string& sign)
+void Game::MakeMove() const
 {
+    int x;
     std::cout << "Gracz: " + CurrentPlayer->GetName() + " wykonuje ruch.\n";
+    std::cin >> x; // Ask for input
+    GameBoard[x - 1] = Sign;
 }
 
 void Game::SwitchPlayer()
