@@ -10,14 +10,7 @@ void Game::Play()
         GetPlayersInfo();
         GameBoard.PrintGuideBoard();
         GameLoop();
-/*        while (!GameLoop())
-        {
-            std::string index;
-            std::cin >> index;
-        
-            MakeMove();
-        }
-*/    
+
     }
 }
 //GameLoop

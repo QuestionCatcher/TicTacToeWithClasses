@@ -6,6 +6,7 @@ class Board
 public:
     Board() = default;
     bool CheckWinner();
+    bool IsDraw() const;
     void PrintCurrentBoard();
     void PrintGuideBoard();
     void ClearBoard();
