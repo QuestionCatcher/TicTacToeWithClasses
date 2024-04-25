@@ -2,7 +2,6 @@
 #include <iostream>
 #include "Board.h"
 
-int x;
 void Game::Play()
 {
     {

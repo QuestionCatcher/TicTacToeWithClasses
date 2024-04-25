@@ -33,7 +33,7 @@ void Board::SetField(const std::string& Sign, const int Index)
     CurrentBoard[Index] = Sign;
 }
 
-void Board::PrintBoard(std::string Board[9]) const
+void Board::PrintBoard(std::string Board[9])
 {
     std::cout << "|" + Board[6] + "|" + Board[7] + "|" + Board[8] + "|\n";
     std::cout << "-------\n";
@@ -42,7 +42,7 @@ void Board::PrintBoard(std::string Board[9]) const
     std::cout << "|" + Board[0] + "|" + Board[1] + "|" + Board[2] + "|\n";
 }
 
-bool Board::CheckWinner()
+bool Board::CheckWinner() const
 {
     //check board to find a winner in every possible pattern to win.
     if ((CurrentBoard[0] == CurrentBoard[1] && CurrentBoard[1] == CurrentBoard[2] && CurrentBoard[0] != " " ||
