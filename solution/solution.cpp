@@ -5,6 +5,6 @@ int main()
 
     Game Game;
 
-    Game.GameLoop();    
+    Game.Play();    
     return 0;
 }

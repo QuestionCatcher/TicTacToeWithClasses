@@ -20,19 +20,20 @@ void Game::GameLoop()
     while (true)
     {
         GameBoard.PrintCurrentBoard();
-        std::cout << "Gracz " << CurrentPlayer->GetName() << ", podaj numer pola (od 1 do 9): ";
+        std::cout << "Player " << CurrentPlayer->GetName() << " ,select field(1 to 9) : ";
         MakeMove();{
             if (GameBoard.CheckWinner() == true)
             {
-                std::cout << CurrentPlayer->GetName() << "wygrał, gratulacje! \n";
+                std::cout << CurrentPlayer->GetName() << "won, congrats! \n";
                 break;
             }
-            if (GameBoard.IsDraw() == true)
+            else if (GameBoard.IsDraw() == true)
             {
-                std::cout << "Remis!\n";
+                std::cout << "Draw!\n";
                 break;
             }
         }
+        SwitchPlayer();
     }
 }
 
@@ -40,18 +41,18 @@ void Game::GameLoop()
 void Game::SetPlayersNames()
 {
     std::string Name;
-    std::cout << "Podaj imie player 1: \n";
+    std::cout << "Player 1 name: \n";
     std::cin >> Name;
     Player1.SetName(Name);
-    std::cout << "Podaj imie player 2: \n";
+    std::cout << "Player 2 name: \n";
     std::cin >> Name;
     Player2.SetName(Name);
 }
 //get info about player name and sign
 void Game::GetPlayersInfo()
 {
-    std::cout << "Player1: \n" + Player1.GetName() + "(znak: " + Player1.GetSign() + ")\n";
-    std::cout << "Player2: \n" + Player2.GetName() + "(znak: " + Player2.GetSign() + ")\n";
+    std::cout << "Player1: \n" + Player1.GetName() + "(sign: " + Player1.GetSign() + ")\n";
+    std::cout << "Player2: \n" + Player2.GetName() + "(sign: " + Player2.GetSign() + ")\n";
 }
 //set player sign
 Game::Game(): CurrentPlayer(&Player1)
@@ -63,7 +64,7 @@ Game::Game(): CurrentPlayer(&Player1)
 void Game::MakeMove()
 {
     int x;
-    std::cout << "Gracz: " + CurrentPlayer->GetName() + " wykonuje ruch.\n";
+    std::cout << "Player: " + CurrentPlayer->GetName() + " move.\n";
     std::cin >> x; // Ask for input
     GameBoard.SetField(CurrentPlayer->GetSign(), x -1);
 }
