@@ -5,7 +5,7 @@ class Board
 {
 public:
     Board() = default;
-    void CheckWinner();
+    bool CheckWinner();
     void PrintCurrentBoard();
     void PrintGuideBoard();
     void ClearBoard();

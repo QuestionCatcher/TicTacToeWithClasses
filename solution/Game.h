@@ -8,7 +8,7 @@ public:
     void GameLoop();
     void Play();
     Game();
-    void MakeMove() const;
+    void MakeMove();
 private:
     //set player name 
     void SetPlayersNames();

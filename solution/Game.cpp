@@ -10,14 +10,14 @@ void Game::Play()
         GetPlayersInfo();
         GameBoard.PrintGuideBoard();
         GameLoop();
-        while (!GameLoop())
+/*        while (!GameLoop())
         {
             std::string index;
             std::cin >> index;
         
             MakeMove();
         }
-    
+*/    
     }
 }
 //GameLoop
@@ -58,12 +58,12 @@ Game::Game(): CurrentPlayer(&Player1)
     Player2.SetSign("O");
 }
 
-void Game::MakeMove() const
+void Game::MakeMove()
 {
     int x;
     std::cout << "Gracz: " + CurrentPlayer->GetName() + " wykonuje ruch.\n";
     std::cin >> x; // Ask for input
-    GameBoard[x - 1] = Sign;
+    GameBoard.SetField(CurrentPlayer->GetSign(), x -1);
 }
 
 void Game::SwitchPlayer()
