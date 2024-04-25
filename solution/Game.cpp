@@ -21,10 +21,19 @@ void Game::GameLoop()
     {
         GameBoard.PrintCurrentBoard();
         std::cout << "Gracz " << CurrentPlayer->GetName() << ", podaj numer pola (od 1 do 9): ";
-        MakeMove();
-        
+        MakeMove();{
+            if (GameBoard.CheckWinner() == true)
+            {
+                std::cout << CurrentPlayer->GetName() << "wygrał, gratulacje! \n";
+                break;
+            }
+            if (GameBoard.IsDraw() == true)
+            {
+                std::cout << "Remis!\n";
+                break;
+            }
+        }
     }
-    
 }
 
 //set player name
