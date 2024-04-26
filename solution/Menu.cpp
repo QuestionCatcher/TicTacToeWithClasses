@@ -33,7 +33,7 @@ void Menu::Choice()
     case '3':
         {
             LoadGame();
-            std::cout << "Nowa gra3";
+            std::cout << "NIECH TEN COUT ZADZIAŁA";
 
             break;
         }
