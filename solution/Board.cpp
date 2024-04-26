@@ -1,6 +1,7 @@
 #include "Board.h"
 #include <iostream> 
 
+//print current board
 void Board::PrintCurrentBoard()
 {
     std::cout << "Print current board\n";
@@ -8,13 +9,14 @@ void Board::PrintCurrentBoard()
     PrintBoard(CurrentBoard);
 }
 
+//print board with numbered fields
 void Board::PrintGuideBoard()
 {
     std::cout << "Print guide board\n";
 
     PrintBoard(GuideBoard);
 }
-
+//clear board for next game
 void Board::ClearBoard()
 {
     std::cout << "Clears the board\n";
@@ -25,6 +27,7 @@ void Board::ClearBoard()
     }
 }
 
+//add player sign to specific field
 void Board::SetField(const std::string& Sign, const int Index)
 {
     std::cout << "Enter sign " + Sign + " to board to field " +
@@ -33,6 +36,7 @@ void Board::SetField(const std::string& Sign, const int Index)
     CurrentBoard[Index] = Sign;
 }
 
+//print board for the first time
 void Board::PrintBoard(std::string Board[9])
 {
     std::cout << "|" + Board[6] + "|" + Board[7] + "|" + Board[8] + "|\n";
@@ -42,6 +46,7 @@ void Board::PrintBoard(std::string Board[9])
     std::cout << "|" + Board[0] + "|" + Board[1] + "|" + Board[2] + "|\n";
 }
 
+//check board to find a winner in every possible pattern to win.
 bool Board::CheckWinner() const
 {
     //check board to find a winner in every possible pattern to win.
@@ -59,6 +64,7 @@ bool Board::CheckWinner() const
     return false;
 }
 
+//check for draw. Full board(no empty fields, empty = " ") = draw.
 bool Board::IsDraw() const
 {
     for (int i = 0; i < 9; i++)

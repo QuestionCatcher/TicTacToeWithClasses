@@ -2,6 +2,7 @@
 #include <iostream>
 #include "Board.h"
 
+//start game function
 void Game::Play()
 {
     {
@@ -12,22 +13,23 @@ void Game::Play()
 
     }
 }
-//GameLoop
 
+//GameLoop
 void Game::GameLoop()
 {
     while (true)
     {
         GameBoard.PrintCurrentBoard();
-        std::cout << "Player " << CurrentPlayer->GetName() << " ,select field(1 to 9) : ";
         MakeMove();{
             if (GameBoard.CheckWinner() == true)
             {
-                std::cout << CurrentPlayer->GetName() << "won, congrats! \n";
+                GameBoard.PrintCurrentBoard();
+                std::cout << CurrentPlayer->GetName() << " won, congrats! \n";
                 break;
             }
             else if (GameBoard.IsDraw() == true)
             {
+                GameBoard.PrintCurrentBoard();
                 std::cout << "Draw!\n";
                 break;
             }
@@ -60,6 +62,7 @@ Game::Game(): CurrentPlayer(&Player1)
     Player2.SetSign("O");
 }
 
+//let player to chose field for his Sign
 void Game::MakeMove()
 {
     int x;
@@ -68,6 +71,7 @@ void Game::MakeMove()
     GameBoard.SetField(CurrentPlayer->GetSign(), x -1);
 }
 
+//simple func to switch between players
 void Game::SwitchPlayer()
 {
     if (CurrentPlayer == &Player1)
