@@ -67,6 +67,7 @@ void Game::MakeMove()
 {
     int x;
     std::cout << "Player " + CurrentPlayer->GetName() + " turn.\n";
+    std::cin >> x;
     GameBoard.Check();
     GameBoard.SetField(CurrentPlayer->GetSign(), x -1);
 }
