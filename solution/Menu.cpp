@@ -2,6 +2,10 @@
 
 #include <iostream>
 
+Menu::Menu()
+{
+}
+
 void Menu::DisplayMenu()
 {
     std::cout << "Przykładowe Menu \n";
@@ -18,26 +22,26 @@ void Menu::Choice()
     std::cin >> x;
     switch (x)
     {
-    case '1':
+    case 1:
         {
             NewGame();
             std::cout << "Nowa gra1";
             break;
         }
-    case '2':
+    case 2:
         {
             Scoreboard();
             std::cout << "Nowa gra2";
             break;
         }
-    case '3':
+    case 3:
         {
             LoadGame();
             std::cout << "NIECH TEN COUT ZADZIAŁA";
 
             break;
         }
-    case '4':
+    case 4:
         {
             Quit();
             std::cout << "Nowa gra4";

@@ -28,7 +28,7 @@ void Game::GameLoop()
                 std::cout << CurrentPlayer->GetName() << " won, congrats! \n";
                 break;
             }
-            else if (GameBoard.IsDraw() == true)
+            if (GameBoard.IsDraw() == true)
             {
                 GameBoard.PrintCurrentBoard();
                 std::cout << "Draw!\n";
@@ -66,8 +66,8 @@ Game::Game(): CurrentPlayer(&Player1)
 void Game::MakeMove()
 {
     int x;
-    std::cout << "Player " + CurrentPlayer->GetName() + " move.\n";
-    std::cin >> x; // Ask for input
+    std::cout << "Player " + CurrentPlayer->GetName() + " turn.\n";
+    GameBoard.Check();
     GameBoard.SetField(CurrentPlayer->GetSign(), x -1);
 }
 

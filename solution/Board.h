@@ -17,6 +17,7 @@ public:
     void ClearBoard();
     //add player Sign to specific field
     void SetField(const std::string& Sign, int Index);
+    void Check() const;
 
 private:
     static void PrintBoard(std::string Board[9]);
