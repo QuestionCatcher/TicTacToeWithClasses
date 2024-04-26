@@ -4,15 +4,13 @@
 //print current board
 void Board::PrintCurrentBoard()
 {
-    std::cout << "Print current board\n";
-
     PrintBoard(CurrentBoard);
 }
 
 //print board with numbered fields
 void Board::PrintGuideBoard()
 {
-    std::cout << "Print guide board\n";
+    std::cout << "======= GUIDE BOARD =======\n";
 
     PrintBoard(GuideBoard);
 }

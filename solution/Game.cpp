@@ -19,8 +19,9 @@ void Game::GameLoop()
 {
     while (true)
     {
+        std::cout << "======= CURRENT BOARD =======\n";
         GameBoard.PrintCurrentBoard();
-        MakeMove();{
+        MakeMove();
             if (GameBoard.CheckWinner() == true)
             {
                 GameBoard.PrintCurrentBoard();
@@ -33,7 +34,6 @@ void Game::GameLoop()
                 std::cout << "Draw!\n";
                 break;
             }
-        }
         SwitchPlayer();
     }
 }
@@ -66,7 +66,7 @@ Game::Game(): CurrentPlayer(&Player1)
 void Game::MakeMove()
 {
     int x;
-    std::cout << "Player: " + CurrentPlayer->GetName() + " move.\n";
+    std::cout << "Player " + CurrentPlayer->GetName() + " move.\n";
     std::cin >> x; // Ask for input
     GameBoard.SetField(CurrentPlayer->GetSign(), x -1);
 }

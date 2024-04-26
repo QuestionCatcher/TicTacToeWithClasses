@@ -1,9 +1,10 @@
 #include "Game.h"
+#include "Menu.h"
 
 int main()
 {
+    Menu Menu;
+    Menu.Choice();
 
-    Game Game;
-    Game.Play();    
     return 0;
 }
