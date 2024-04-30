@@ -1,6 +1,8 @@
 #include "Board.h"
 #include <iostream> 
 
+#include "Utility.h"
+
 //print current board
 void Board::PrintCurrentBoard()
 {
@@ -36,8 +38,7 @@ void Board::SetField(const std::string& Sign, const int Index)
 
 void Board::Check() const
 {
-    int x;
-    std::cin >> x;
+    int x = Utility::EnterInt(9);
     while (x > 9 || x < 1 || CurrentBoard[x - 1] != " ")
     {
         // If input is out of range print message and ask again for input
