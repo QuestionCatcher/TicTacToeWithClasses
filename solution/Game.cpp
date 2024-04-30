@@ -1,6 +1,7 @@
 #include "Game.h"
 #include <iostream>
 #include "Board.h"
+#include "Utility.h"
 
 //start game function
 void Game::Play()
@@ -65,9 +66,11 @@ Game::Game(): CurrentPlayer(&Player1)
 //let player to chose field for his Sign
 void Game::MakeMove()
 {
+    
+    int x = Utility::EnterInt(9);
     std::cout << "Player " + CurrentPlayer->GetName() + " turn.\n";
     std::cin >> x;
-    GameBoard.Check();
+    GameBoard.IsFieldOccupied(x);
     GameBoard.SetField(CurrentPlayer->GetSign(), x -1);
 }
 

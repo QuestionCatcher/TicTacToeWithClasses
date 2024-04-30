@@ -1,8 +1,6 @@
 #include "Board.h"
 #include <iostream> 
 
-#include "Utility.h"
-
 //print current board
 void Board::PrintCurrentBoard()
 {
@@ -36,28 +34,16 @@ void Board::SetField(const std::string& Sign, const int Index)
     CurrentBoard[Index] = Sign;
 }
 
-void Board::Check() const
+bool Board::IsFieldOccupied(int x)
 {
-    int x = Utility::EnterInt(9);
-    while (x > 9 || x < 1 || CurrentBoard[x - 1] != " ")
+    if (CurrentBoard[x - 1] !=" ")
     {
-        // If input is out of range print message and ask again for input
-        if (x > 9 || x < 1)
-        {
-           std::cout << "Wrong number. Pick a number between 1 and 9 (including)\n";
-            std::cin >> x;
-            // Continue to skip another if
-            continue;
-        }
-
-        // If field is already taken print message and ask again for input
-        if (CurrentBoard[x - 1] != " ")
-        {
-            std::cout << "Field is already taken. Choose another one\n";
-            std::cin >> x;
-        }
+        return false;
     }
+    return true;
 }
+
+
 
 //print board for the first time
 void Board::PrintBoard(std::string Board[9])
