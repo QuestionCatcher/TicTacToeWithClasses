@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-void Player::SetName(std::string NewName)
+void Player::SetName(const std::string& NewName)
 {
     Name = NewName;
 }

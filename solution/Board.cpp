@@ -36,11 +36,11 @@ void Board::SetField(const std::string& Sign, const int Index)
 
 bool Board::IsFieldOccupied(int x)
 {
-    if (CurrentBoard[x - 1] !=" ")
+    if (CurrentBoard[x - 1] != " ")
     {
-        return false;
+        return true;
     }
-    return true;
+    return false;
 }
 
 

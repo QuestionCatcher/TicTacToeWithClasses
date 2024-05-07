@@ -15,7 +15,7 @@ private:
     //set player name 
     void SetPlayersNames();
     //get info about player name and sign
-    void GetPlayersInfo();
+    void GetPlayersInfo() const;
     //simple func to switch between players
     void SwitchPlayer();
     Board GameBoard;

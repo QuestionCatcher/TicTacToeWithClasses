@@ -51,7 +51,7 @@ void Game::SetPlayersNames()
     Player2.SetName(Name);
 }
 //get info about player name and sign
-void Game::GetPlayersInfo()
+void Game::GetPlayersInfo() const
 {
     std::cout << "Player1: \n" + Player1.GetName() + "(sign: " + Player1.GetSign() + ")\n";
     std::cout << "Player2: \n" + Player2.GetName() + "(sign: " + Player2.GetSign() + ")\n";
@@ -66,12 +66,23 @@ Game::Game(): CurrentPlayer(&Player1)
 //let player to chose field for his Sign
 void Game::MakeMove()
 {
-    
-    int x = Utility::EnterInt(9);
-    std::cout << "Player " + CurrentPlayer->GetName() + " turn.\n";
-    std::cin >> x;
-    GameBoard.IsFieldOccupied(x);
-    GameBoard.SetField(CurrentPlayer->GetSign(), x -1);
+    while (true)
+    {
+        int x = Utility::EnterInt(9);
+        std::cout << "Player " + CurrentPlayer->GetName() + " turn.\n";
+
+        if (GameBoard.IsFieldOccupied(x))
+        {
+            std::cout << "Field is already taken!\n";
+            std::cout <<"Wybierz inne pole\n";
+            GameBoard.PrintCurrentBoard();
+        }
+        else
+        {
+            GameBoard.SetField(CurrentPlayer->GetSign(), x - 1);
+            break;
+        }
+    }
 }
 
 //simple func to switch between players

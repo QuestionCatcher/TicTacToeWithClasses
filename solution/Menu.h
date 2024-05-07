@@ -4,9 +4,9 @@ class Menu
 {
 public:
     Menu();
-    void DisplayMenu();
+    static void DisplayMenu();
     void Choice();
-    void NewGame();
+    static void NewGame();
     void Scoreboard();
     void LoadGame();
     void Quit();

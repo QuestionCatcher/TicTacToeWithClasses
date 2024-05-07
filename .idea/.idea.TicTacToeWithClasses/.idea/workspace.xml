@@ -10,10 +10,15 @@
     <list default="true" id="4e513310-e3fd-416a-ba61-3dab25a2b1fa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TicTacToeWithClasses/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TicTacToeWithClasses/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/Board.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/solution/Board.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Board.h" beforeDir="false" afterPath="$PROJECT_DIR$/solution/Board.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/solution/Game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/solution/Game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Menu.h" beforeDir="false" afterPath="$PROJECT_DIR$/solution/Menu.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/solution/Player.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Player.h" beforeDir="false" afterPath="$PROJECT_DIR$/solution/Player.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/x64/Debug/Board.obj" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/Board.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/x64/Debug/Game.obj" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/Game.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/x64/Debug/Menu.obj" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/Menu.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/x64/Debug/Player.obj" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/Player.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/x64/Debug/solution.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.ilk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/x64/Debug/solution.obj" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.command.1.tlog" afterDir="false" />
@@ -33,6 +38,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/ios" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/xlocmon" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -145,6 +158,7 @@
       <workItem from="1714374240213" duration="1137000" />
       <workItem from="1714463989519" duration="614000" />
       <workItem from="1714465064413" duration="3439000" />
+      <workItem from="1715078531691" duration="3642000" />
     </task>
     <servers />
   </component>
