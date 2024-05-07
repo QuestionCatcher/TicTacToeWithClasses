@@ -1,5 +1,7 @@
 #include "Utility.h"
 #include <iostream>
+
+
 int Utility::EnterInt(const int End, const int Start)
 {
     int Input;
@@ -11,4 +13,13 @@ int Utility::EnterInt(const int End, const int Start)
     }
 
     return Input;
+}
+
+std::string Utility::EnterString(const int MinLength)
+{
+    std::string String;
+    // validation
+    // code
+
+    return String;
 }

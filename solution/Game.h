@@ -5,8 +5,10 @@
 class Game
 {
 public:
-    void Play();
     Game();
+
+    void Play();
+
 private:
     //let player to chose field for his Sign
     void MakeMove();
@@ -15,7 +17,7 @@ private:
     //set player name 
     void SetPlayersNames();
     //get info about player name and sign
-    void GetPlayersInfo() const;
+    void PrintPlayersInfo() const;
     //simple func to switch between players
     void SwitchPlayer();
     Board GameBoard;

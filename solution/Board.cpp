@@ -1,9 +1,11 @@
 #include "Board.h"
-#include <iostream> 
+#include <iostream>
 
 //print current board
 void Board::PrintCurrentBoard()
 {
+    std::cout << "======= CURRENT BOARD =======\n";
+
     PrintBoard(CurrentBoard);
 }
 
@@ -14,6 +16,7 @@ void Board::PrintGuideBoard()
 
     PrintBoard(GuideBoard);
 }
+
 //clear board for next game
 void Board::ClearBoard()
 {
@@ -34,7 +37,7 @@ void Board::SetField(const std::string& Sign, const int Index)
     CurrentBoard[Index] = Sign;
 }
 
-bool Board::IsFieldOccupied(int x)
+bool Board::IsFieldOccupied(const int x) const
 {
     if (CurrentBoard[x - 1] != " ")
     {
@@ -42,7 +45,6 @@ bool Board::IsFieldOccupied(int x)
     }
     return false;
 }
-
 
 
 //print board for the first time
@@ -60,13 +62,13 @@ bool Board::CheckWinner() const
 {
     //check board to find a winner in every possible pattern to win.
     if ((CurrentBoard[0] == CurrentBoard[1] && CurrentBoard[1] == CurrentBoard[2] && CurrentBoard[0] != " " ||
-         CurrentBoard[3] == CurrentBoard[4] && CurrentBoard[4] == CurrentBoard[5] && CurrentBoard[3] != " " ||
-         CurrentBoard[6] == CurrentBoard[7] && CurrentBoard[7] == CurrentBoard[8] && CurrentBoard[6] != " " ||
-         CurrentBoard[0] == CurrentBoard[3] && CurrentBoard[3] == CurrentBoard[6] && CurrentBoard[0] != " " ||
-         CurrentBoard[1] == CurrentBoard[4] && CurrentBoard[4] == CurrentBoard[7] && CurrentBoard[1] != " " ||
-         CurrentBoard[2] == CurrentBoard[5] && CurrentBoard[5] == CurrentBoard[8] && CurrentBoard[2] != " " ||
-         CurrentBoard[0] == CurrentBoard[4] && CurrentBoard[4] == CurrentBoard[8] && CurrentBoard[0] != " " ||
-         CurrentBoard[2] == CurrentBoard[4] && CurrentBoard[4] == CurrentBoard[6] && CurrentBoard[2] != " "))
+        CurrentBoard[3] == CurrentBoard[4] && CurrentBoard[4] == CurrentBoard[5] && CurrentBoard[3] != " " ||
+        CurrentBoard[6] == CurrentBoard[7] && CurrentBoard[7] == CurrentBoard[8] && CurrentBoard[6] != " " ||
+        CurrentBoard[0] == CurrentBoard[3] && CurrentBoard[3] == CurrentBoard[6] && CurrentBoard[0] != " " ||
+        CurrentBoard[1] == CurrentBoard[4] && CurrentBoard[4] == CurrentBoard[7] && CurrentBoard[1] != " " ||
+        CurrentBoard[2] == CurrentBoard[5] && CurrentBoard[5] == CurrentBoard[8] && CurrentBoard[2] != " " ||
+        CurrentBoard[0] == CurrentBoard[4] && CurrentBoard[4] == CurrentBoard[8] && CurrentBoard[0] != " " ||
+        CurrentBoard[2] == CurrentBoard[4] && CurrentBoard[4] == CurrentBoard[6] && CurrentBoard[2] != " "))
     {
         return true;
     }
@@ -85,4 +87,3 @@ bool Board::IsDraw() const
     }
     return true;
 }
-
