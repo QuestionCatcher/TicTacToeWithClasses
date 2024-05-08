@@ -1,9 +1,9 @@
-#include "Game.h"
+#include "Menu.h"
 
 int main()
 {
-    Game Game;
-    Game.Play();
+    Menu Menu;
+    Menu.DisplayMenu();
 
     return 0;
 }

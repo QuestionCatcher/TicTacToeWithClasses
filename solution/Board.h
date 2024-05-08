@@ -7,18 +7,20 @@ public:
     Board() = default;
     //Print current board 
     void PrintCurrentBoard();
+    //simple board with numbered fields
+    void PrintGuideBoard();
+    //add player Sign to specific field
+    void SetField(const std::string& Sign, int Index);
+    //check if picked field is occupied by Sign
+    bool IsFieldOccupied(const int x) const;
     //check board to find a winner in every possible pattern to win.
     bool CheckWinner() const;
     //check for draw. Full board = draw.
     bool IsDraw() const;
-    //simple board with numbered fields
-    void PrintGuideBoard();
     //clear board for next game 
     void ClearBoard();
     //add player Sign to specific field
-    void SetField(const std::string& Sign, int Index);
-    bool IsFieldOccupied(const int x) const;
-
+    
 private:
     static void PrintBoard(std::string Board[9]);
     std::string CurrentBoard[9]{" ", " ", " ", " ", " ", " ", " ", " ", " "};

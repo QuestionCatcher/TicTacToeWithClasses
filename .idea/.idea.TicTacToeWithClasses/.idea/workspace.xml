@@ -8,22 +8,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e513310-e3fd-416a-ba61-3dab25a2b1fa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/unsuccessfulbuild" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TicTacToeWithClasses/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TicTacToeWithClasses/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/Board.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/solution/Board.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/solution/Game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Board.h" beforeDir="false" afterPath="$PROJECT_DIR$/solution/Board.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/solution/Game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Menu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/solution/Menu.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/Menu.h" beforeDir="false" afterPath="$PROJECT_DIR$/solution/Menu.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/solution/Player.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Player.h" beforeDir="false" afterPath="$PROJECT_DIR$/solution/Player.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/solution.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/solution/solution.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/x64/Debug/Board.obj" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/Board.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/x64/Debug/Game.obj" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/Game.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/x64/Debug/Menu.obj" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/Menu.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/x64/Debug/Player.obj" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/Player.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/x64/Debug/Utility.obj" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/Utility.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/x64/Debug/solution.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.ilk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/x64/Debug/solution.obj" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.command.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.read.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/link.read.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/vc143.idb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/vc143.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/x64/Debug/solution.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/solution.exe" afterDir="false" />
@@ -46,6 +48,24 @@
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/ios" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/xlocmon" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -60,29 +80,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "C++ Project.solution.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.C++",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;C++ Project.solution.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C++&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\macie\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\macie\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\macie\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\macie\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\macie\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\macie\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="solution" type="CppProject" factoryName="C++ Project">
       <configuration_1>
@@ -158,7 +178,9 @@
       <workItem from="1714374240213" duration="1137000" />
       <workItem from="1714463989519" duration="614000" />
       <workItem from="1714465064413" duration="3439000" />
-      <workItem from="1715078531691" duration="3642000" />
+      <workItem from="1715078531691" duration="6255000" />
+      <workItem from="1715085173089" duration="42000" />
+      <workItem from="1715162726380" duration="3292000" />
     </task>
     <servers />
   </component>

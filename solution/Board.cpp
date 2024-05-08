@@ -17,17 +17,6 @@ void Board::PrintGuideBoard()
     PrintBoard(GuideBoard);
 }
 
-//clear board for next game
-void Board::ClearBoard()
-{
-    std::cout << "Clears the board\n";
-
-    for (std::string& Field : CurrentBoard)
-    {
-        Field = " ";
-    }
-}
-
 //add player sign to specific field
 void Board::SetField(const std::string& Sign, const int Index)
 {
@@ -86,4 +75,14 @@ bool Board::IsDraw() const
         }
     }
     return true;
+}
+//clear board for next game
+void Board::ClearBoard()
+{
+    std::cout << "Clears the board\n";
+
+    for (std::string& Field : CurrentBoard)
+    {
+        Field = " ";
+    }
 }
