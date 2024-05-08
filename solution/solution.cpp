@@ -3,7 +3,8 @@
 int main()
 {
     Menu Menu;
-    Menu.DisplayMenu();
+    Game MyGame;
+    Menu.DisplayMenu(MyGame);
 
     return 0;
 }

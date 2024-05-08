@@ -2,26 +2,27 @@
 #include <iostream>
 #include "Menu.h"
 
+
 Menu::Menu() {
 }
 
-void Menu::DisplayMenu() {
+void Menu::DisplayMenu(Game& MyGame) {
     std::cout << "Przykladowe Menu \n";
     std::cout << "Wybierz 1-4:\n";
     std::cout << "1. Nowa Gra\n";
     std::cout << "2. Tablica Wynikow\n";
     std::cout << "3. Wczytaj Gre\n";
     std::cout << "4. Opusc gre\n";
-    Choice();
+    Choice(MyGame);
 }
 
-void Menu::Choice() {
+void Menu::Choice(Game& MyGame) {
     int x;
     std::cin >> x;
     switch (x) {
     case 1:
         std::cout << "Nowa gra1\n";
-        NewGame();
+        NewGame(MyGame);
         break;
     case 2:
         Scoreboard();
@@ -41,20 +42,20 @@ void Menu::Choice() {
     }
 }
 
-void Menu::NewGame() {
+void Menu::NewGame(Game& MyGame) {
     std::cout << "Wybierz tryb gry:\n";
     std::cout << "1. Tryb PvP\n";
     std::cout << "2. Tryb PvE\n";    
-    ModeChoice();
+    ModeChoice(MyGame);
 }
 
-void Menu::ModeChoice() {
+void Menu::ModeChoice(Game& MyGame) {
     int x;
     std::cin >> x;
     switch (x) {
     case 1:
         std::cout << "Wybrano: Tryb PVP\n";
-        Game.Play(); 
+        MyGame.Play();
         break;
     case 2:
         std::cout << "Wybrano: Tryb PvE\n";

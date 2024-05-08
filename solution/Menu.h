@@ -4,14 +4,14 @@ class Menu
 {
 public:
     Menu();
-    void DisplayMenu();
-    void Choice();
-    static void NewGame();
-    static void ModeChoice();
+    void DisplayMenu(Game& MyGame);
+    void Choice(Game& MyGame);
+    void NewGame(Game& MyGame);
+    void ModeChoice(Game& MyGame);
     void Scoreboard();
     void LoadGame();
     void Quit();
 
 private:
-    Game Game;
+    
 };
