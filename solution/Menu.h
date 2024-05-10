@@ -1,5 +1,7 @@
 #pragma once
-#include "Game.h"
+
+class Game;
+
 class Menu
 {
 public:
@@ -10,7 +12,8 @@ public:
     static void ModeChoice(Game& MyGame);
     void Scoreboard();
     void LoadGame();
-    void Quit();
+    void Quit(Game& MyGame);
+    void QuitChoice(Game& MyGame);
 
 private:
     

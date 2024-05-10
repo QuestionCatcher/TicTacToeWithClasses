@@ -22,7 +22,7 @@ void Game::Play()
 
 //GameLoop
 void Game::GameLoop()
-{
+{  // NOLINT(clang-diagnostic-missing-noreturn)
     while (true)
     {
         GameBoard.PrintCurrentBoard();
@@ -31,13 +31,13 @@ void Game::GameLoop()
         {
             GameBoard.PrintCurrentBoard();
             std::cout << CurrentPlayer->GetName() << " won, congrats! \n";
-            Testmenu.DisplayMenu(*this);
+            Menu.DisplayMenu(*this);
         }
         if (GameBoard.IsDraw() == true)
         {
             GameBoard.PrintCurrentBoard();
             std::cout << "Draw!\n";
-            break;
+            Menu.DisplayMenu(*this);
         }
         SwitchPlayer();
     }

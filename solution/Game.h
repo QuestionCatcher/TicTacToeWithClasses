@@ -25,5 +25,5 @@ private:
     Player Player1;
     Player Player2;
     Player* CurrentPlayer;
-    Menu Testmenu;
+    Menu Menu;
 };

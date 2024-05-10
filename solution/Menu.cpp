@@ -1,6 +1,8 @@
 #include <iostream>
 #include "Menu.h"
 
+#include "Game.h"
+
 
 Menu::Menu()
 {
@@ -34,8 +36,7 @@ void Menu::Choice(Game& MyGame) {
         std::cout << "Load Game";
         break;
     case 4:
-        Quit();
-        std::cout << "Quit";
+        Quit(MyGame);
         break;
     default:
         std::cout << "Wrong number";
@@ -73,5 +74,27 @@ void Menu::Scoreboard() {
 void Menu::LoadGame() {
 }
 
-void Menu::Quit() {
+void Menu::Quit(Game& MyGame)
+{
+    std::cout << "Are you sure you want to leave the game?(pick 1-2)\n";
+    std::cout << "1. Yes\n";
+    std::cout << "2. No\n";    
+    QuitChoice(MyGame);
 }
+
+void Menu::QuitChoice(Game& MyGame) {
+    int x;
+    std::cin >> x;
+    switch (x) {
+    case 1:
+        std::cout << "Thanks for playing my game!\n";
+        break;
+    case 2:
+        std::cout << "Welcome back!\n";
+        DisplayMenu(MyGame);
+    default:
+        std::cout << "Wrong number. Pick 1 or 2.\n";
+        QuitChoice(MyGame);
+    }   
+}
+
