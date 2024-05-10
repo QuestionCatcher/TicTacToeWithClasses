@@ -1,7 +1,8 @@
-#include "Game.h"
 #include <iostream>
 #include "Board.h"
 #include "Utility.h"
+#include "Game.h"
+
 
 //set player sign
 Game::Game(): CurrentPlayer(&Player1)
@@ -72,7 +73,7 @@ void Game::MakeMove()
         if (GameBoard.IsFieldOccupied(x))
         {
             std::cout << "Field is already taken!\n";
-            std::cout << "Wybierz inne pole\n";
+            std::cout << "Select another field\n";
             GameBoard.PrintCurrentBoard();
         }
         else

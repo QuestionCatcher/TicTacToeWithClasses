@@ -7,7 +7,7 @@ public:
     void DisplayMenu(Game& MyGame);
     void Choice(Game& MyGame);
     void NewGame(Game& MyGame);
-    void ModeChoice(Game& MyGame);
+    static void ModeChoice(Game& MyGame);
     void Scoreboard();
     void LoadGame();
     void Quit();

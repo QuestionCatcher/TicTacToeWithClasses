@@ -1,18 +1,19 @@
-// Plik Menu.cpp
 #include <iostream>
 #include "Menu.h"
 
 
-Menu::Menu() {
+Menu::Menu()
+{
+    
 }
 
 void Menu::DisplayMenu(Game& MyGame) {
-    std::cout << "Przykladowe Menu \n";
-    std::cout << "Wybierz 1-4:\n";
-    std::cout << "1. Nowa Gra\n";
-    std::cout << "2. Tablica Wynikow\n";
-    std::cout << "3. Wczytaj Gre\n";
-    std::cout << "4. Opusc gre\n";
+    std::cout << "===== MAIN MENU =====\n";
+    std::cout << "Pick 1-4:\n";
+    std::cout << "1. New Game\n";
+    std::cout << "2. Scoreboard\n";
+    std::cout << "3. Load Game\n";
+    std::cout << "4. Quit\n";
     Choice(MyGame);
 }
 
@@ -21,20 +22,20 @@ void Menu::Choice(Game& MyGame) {
     std::cin >> x;
     switch (x) {
     case 1:
-        std::cout << "Nowa gra1\n";
+        std::cout << "New Game\n";
         NewGame(MyGame);
         break;
     case 2:
         Scoreboard();
-        std::cout << "Nowa gra2";
+        std::cout << "Scoreboard";
         break;
     case 3:
         LoadGame();
-        std::cout << "NIECH TEN COUT ZADZIAŁA";
+        std::cout << "Load Game";
         break;
     case 4:
         Quit();
-        std::cout << "Nowa gra4";
+        std::cout << "Quit";
         break;
     default:
         std::cout << "Wrong number";
@@ -43,9 +44,9 @@ void Menu::Choice(Game& MyGame) {
 }
 
 void Menu::NewGame(Game& MyGame) {
-    std::cout << "Wybierz tryb gry:\n";
-    std::cout << "1. Tryb PvP\n";
-    std::cout << "2. Tryb PvE\n";    
+    std::cout << "Game-mode:\n";
+    std::cout << "1. Player vs Player\n";
+    std::cout << "2. Player vs computer\n";    
     ModeChoice(MyGame);
 }
 
@@ -54,11 +55,11 @@ void Menu::ModeChoice(Game& MyGame) {
     std::cin >> x;
     switch (x) {
     case 1:
-        std::cout << "Wybrano: Tryb PVP\n";
+        std::cout << "Mode selected: Player vs Player\n";
         MyGame.Play();
         break;
     case 2:
-        std::cout << "Wybrano: Tryb PvE\n";
+        std::cout << "Mode Selected: Player vs Computer\n";
         break;
     default:
         std::cout << "Wrong number";
