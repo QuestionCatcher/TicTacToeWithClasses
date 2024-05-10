@@ -8,21 +8,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e513310-e3fd-416a-ba61-3dab25a2b1fa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/unsuccessfulbuild" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TicTacToeWithClasses/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TicTacToeWithClasses/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/solution/Game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Menu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/solution/Menu.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Menu.h" beforeDir="false" afterPath="$PROJECT_DIR$/solution/Menu.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/x64/Debug/Game.obj" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/Game.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/x64/Debug/Menu.obj" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/Menu.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/x64/Debug/solution.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/x64/Debug/solution.obj" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/solution/Game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.command.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.read.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/link.read.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/vc143.idb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/vc143.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/solution.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/solution.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/solution.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/solution.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +168,7 @@
       <workItem from="1715078531691" duration="6255000" />
       <workItem from="1715085173089" duration="42000" />
       <workItem from="1715162726380" duration="6685000" />
-      <workItem from="1715352132254" duration="5161000" />
+      <workItem from="1715352132254" duration="6707000" />
     </task>
     <servers />
   </component>

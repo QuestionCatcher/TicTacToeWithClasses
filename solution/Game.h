@@ -1,5 +1,6 @@
 #pragma once
 #include "Board.h"
+#include "Menu.h"
 #include "Player.h"
 
 class Game
@@ -24,4 +25,5 @@ private:
     Player Player1;
     Player Player2;
     Player* CurrentPlayer;
+    Menu Testmenu;
 };

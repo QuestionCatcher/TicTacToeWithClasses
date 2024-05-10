@@ -31,7 +31,7 @@ void Game::GameLoop()
         {
             GameBoard.PrintCurrentBoard();
             std::cout << CurrentPlayer->GetName() << " won, congrats! \n";
-            break;
+            Testmenu.DisplayMenu(*this);
         }
         if (GameBoard.IsDraw() == true)
         {
