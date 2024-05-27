@@ -98,21 +98,17 @@ void Game::SwitchPlayer()
 }
 
 void Game::PlayAgain(Game& MyGame)
-{
+{  // NOLINT(clang-diagnostic-infinite-recursion)
     std::cout << "Do you want to play again?\n";
     std::cout << "1 - Yes, 2 - No\n";
-    int x;
-    std::cin >> x;
+    int x = Utility::EnterInt(2);
     switch (x) {
     case 1:
-        std::cout << "Let's play again!\n";
+        std::cout << "Let's play again1!\n";
         GameBoard.ClearBoard();
         GameLoop();
-    case 2:
+    case 2:  // NOLINT(clang-diagnostic-implicit-fallthrough)
         std::cout << "Bye bye!\n";
         Menu.DisplayMenu(MyGame);
-    default:  // NOLINT(clang-diagnostic-implicit-fallthrough)
-        std::cout << "Wrong number. Pick 1 or 2.\n";
-        PlayAgain(MyGame);
     }   
 }

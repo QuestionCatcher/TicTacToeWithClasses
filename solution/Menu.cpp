@@ -2,6 +2,7 @@
 #include "Menu.h"
 
 #include "Game.h"
+#include "Utility.h"
 
 
 Menu::Menu()
@@ -83,8 +84,7 @@ void Menu::Quit(Game& MyGame)
 }
 
 void Menu::QuitChoice(Game& MyGame) {
-    int x;
-    std::cin >> x;
+    int x = Utility::EnterInt(2);
     switch (x) {
     case 1:
         std::cout << "Thanks for playing my game!\n";
@@ -92,9 +92,6 @@ void Menu::QuitChoice(Game& MyGame) {
     case 2:
         std::cout << "Welcome back!\n";
         DisplayMenu(MyGame);
-    default:  // NOLINT(clang-diagnostic-implicit-fallthrough)
-        std::cout << "Wrong number. Pick 1 or 2.\n";
-        QuitChoice(MyGame);
     }   
 }
 
