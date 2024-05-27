@@ -21,26 +21,23 @@ void Menu::DisplayMenu(Game& MyGame) {
 }
 
 void Menu::Choice(Game& MyGame) {
-    int x;
-    std::cin >> x;
+    int x = Utility::EnterInt(4);
     switch (x) {
     case 1:
         std::cout << "New Game\n";
         NewGame(MyGame);
         break;
     case 2:
-        Scoreboard();
         std::cout << "Scoreboard";
+        Scoreboard();
         break;
     case 3:
-        LoadGame();
         std::cout << "Load Game";
+        LoadGame();
         break;
     case 4:
+        std::cout << "Quit";
         Quit(MyGame);
-        break;
-    default:
-        std::cout << "Wrong number";
         break;
     }
 }
@@ -53,8 +50,7 @@ void Menu::NewGame(Game& MyGame) {
 }
 
 void Menu::ModeChoice(Game& MyGame) {
-    int x;
-    std::cin >> x;
+    int x = Utility::EnterInt(2);
     switch (x) {
     case 1:
         std::cout << "Mode selected: Player vs Player\n";
@@ -62,9 +58,6 @@ void Menu::ModeChoice(Game& MyGame) {
         break;
     case 2:
         std::cout << "Mode Selected: Player vs Computer\n";
-        break;
-    default:
-        std::cout << "Wrong number";
         break;
     }   
 }
@@ -92,6 +85,7 @@ void Menu::QuitChoice(Game& MyGame) {
     case 2:
         std::cout << "Welcome back!\n";
         DisplayMenu(MyGame);
+        break;
     }   
 }
 

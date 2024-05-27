@@ -107,8 +107,10 @@ void Game::PlayAgain(Game& MyGame)
         std::cout << "Let's play again1!\n";
         GameBoard.ClearBoard();
         GameLoop();
+        break;
     case 2:  // NOLINT(clang-diagnostic-implicit-fallthrough)
         std::cout << "Bye bye!\n";
         Menu.DisplayMenu(MyGame);
+        break;
     }   
 }
