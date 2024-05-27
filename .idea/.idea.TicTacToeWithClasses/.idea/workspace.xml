@@ -10,10 +10,9 @@
     <list default="true" id="4e513310-e3fd-416a-ba61-3dab25a2b1fa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TicTacToeWithClasses/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TicTacToeWithClasses/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/solution/Game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Menu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/solution/Menu.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/x64/Debug/Game.obj" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/Game.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/x64/Debug/Menu.obj" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/Menu.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/x64/Debug/solution.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.command.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.read.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/solution.tlog/CL.write.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/solution/x64/Debug/vc143.idb" afterDir="false" />
@@ -170,6 +169,15 @@
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://12" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/ios" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/xlocmon" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -187,7 +195,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "C++ Project.solution.executor": "Debug",
+    "C++ Project.solution.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -286,7 +294,7 @@
       <workItem from="1715085173089" duration="42000" />
       <workItem from="1715162726380" duration="6685000" />
       <workItem from="1715352132254" duration="9051000" />
-      <workItem from="1716799224763" duration="4318000" />
+      <workItem from="1716799224763" duration="5681000" />
     </task>
     <servers />
   </component>

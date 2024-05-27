@@ -32,12 +32,14 @@ void Game::GameLoop()
             GameBoard.PrintCurrentBoard();
             std::cout << CurrentPlayer->GetName() << " won, congrats! \n";
             PlayAgain(*this);
+            break;
         }
         if (GameBoard.IsDraw() == true)
         {
             GameBoard.PrintCurrentBoard();
             std::cout << "Draw!\n";
             PlayAgain(*this);
+            break;
         }
         SwitchPlayer();
     }
