@@ -92,7 +92,7 @@ void Menu::QuitChoice(Game& MyGame) {
     case 2:
         std::cout << "Welcome back!\n";
         DisplayMenu(MyGame);
-    default:
+    default:  // NOLINT(clang-diagnostic-implicit-fallthrough)
         std::cout << "Wrong number. Pick 1 or 2.\n";
         QuitChoice(MyGame);
     }   

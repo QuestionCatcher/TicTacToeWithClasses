@@ -31,13 +31,13 @@ void Game::GameLoop()
         {
             GameBoard.PrintCurrentBoard();
             std::cout << CurrentPlayer->GetName() << " won, congrats! \n";
-            Menu.DisplayMenu(*this);
+            PlayAgain(*this);
         }
         if (GameBoard.IsDraw() == true)
         {
             GameBoard.PrintCurrentBoard();
             std::cout << "Draw!\n";
-            Menu.DisplayMenu(*this);
+            PlayAgain(*this);
         }
         SwitchPlayer();
     }
@@ -95,4 +95,24 @@ void Game::SwitchPlayer()
     {
         CurrentPlayer = &Player1;
     }
+}
+
+void Game::PlayAgain(Game& MyGame)
+{
+    std::cout << "Do you want to play again?\n";
+    std::cout << "1 - Yes, 2 - No\n";
+    int x;
+    std::cin >> x;
+    switch (x) {
+    case 1:
+        std::cout << "Let's play again!\n";
+        GameBoard.ClearBoard();
+        GameLoop();
+    case 2:
+        std::cout << "Bye bye!\n";
+        Menu.DisplayMenu(MyGame);
+    default:  // NOLINT(clang-diagnostic-implicit-fallthrough)
+        std::cout << "Wrong number. Pick 1 or 2.\n";
+        PlayAgain(MyGame);
+    }   
 }

@@ -21,6 +21,8 @@ private:
     void MakeMove();
     //simple func to switch between players
     void SwitchPlayer();
+
+    void PlayAgain(Game& MyGame);
     Board GameBoard;
     Player Player1;
     Player Player2;
